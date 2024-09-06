@@ -11,9 +11,7 @@ O MoMe - Movies Memories funciona como uma biblioteca para armazenar seus filmes
 - [Instalação](#instalação)
 - [Como Usar](#como-usar)
 - [Contato](#contato)
-
-## Sobre o Projeto
-
+  
 ## Sobre o Projeto
 
 O **MoMe - Movies Memories** é um web app projetado para funcionar como uma biblioteca pessoal, onde os usuários podem armazenar seus filmes favoritos e atribuir notas para cada um deles. A ideia é criar um espaço onde você pode facilmente organizar, gerenciar e relembrar dos filmes que assistiu, junto com as suas avaliações pessoais.
