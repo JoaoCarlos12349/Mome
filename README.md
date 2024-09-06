@@ -49,6 +49,7 @@ Adicione seus filmes através do "Registrar um novo filme".
 Altere sua nota através da barra de registro de nota abaixo do trailer informado e seu título por meio do "Editar" do filme escolhido.
 
 ## Contato
+- Desenvolvido por João Carlos Martins, Evelyze Reis e Esther Magalhães (Estudantes de Engenharia de Computação - CEFETMG).
 
 - Para mais contatos e demais sujetões : 
   - @joaocarlos.fm on Instagram
