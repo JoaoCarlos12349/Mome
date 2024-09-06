@@ -1,5 +1,8 @@
 # MoMe - Movies Memories
 
+![Static Badge](https://img.shields.io/badge/Em%20Desenvolvimento?label=Status&color=%23FFFF00)
+
+
 O MoMe - Movies Memories funciona como uma biblioteca para armazenar seus filmes preferidos com a suas repectivas notas.
 
 ## Índice
