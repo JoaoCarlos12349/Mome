@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--Identifica um documento HTML-->
+<html>
+  <!--Container principal do código HTML-->
+  <head>
+    <!--Container dos metadados-->
+    <meta charset="utf-8" />
+    <!--Definição do conjunto de caracteres-->
+    <meta
+      name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Meta-tag para ajuste de tela-->
+    <title>MoMe - Faça seu Login já!</title>
+    <!--Título da página-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="conta.js" defer></script>
+    <style></style>
+  </head>
+  <body>
+    <!--Corpo da página-->
+    <header>
+      <!--Cabeçalho do corpo da página-->
+      <div class="container">
+        <button id="home"><a href="landing.html">Inicio</a></button>
+      </div>
+      <img src="M.png" />
+    </header>
+
+    <form id="form" action="home.html" method="get">
+      <div id="formulario">
+        <div>
+          <label for="user">Usuário:</label>
+          <input type="text" id="usuario" name="usuario" />
+        </div>
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome"/>
+        </div>
+        <div>
+          <label for="nasc">Nascimento:</label>
+          <input type="date" id="nasc" name="nasc"/>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email"/>
+        </div>
+        <div>
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha"/>
+        </div>
+        <div class="margin-top-5">
+          <input class="botoes2" type="submit" value="Cadastrar" />
+        </div>
+      </div>
+    </form>
+
+    <footer>
+      <!--Seção de rodapé-->
+      <p>
+        Esther Magalhães, Evelyze Pinheiro, João Carlos Martins. ® All rights
+        reserved.
+      </p>
+      <!--Parágrafo-->
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,296 @@
+footer {
+  font-size: small;
+  position: fixed;
+  bottom: 0;
+  opacity: 0.2;
+}
+
+form {
+  display: inline-block;
+}
+
+.onfilmes{
+  background-color: rgba(255, 0, 0, 0.445);
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  border-radius: 8px;
+}
+
+.offfilmes{
+  display: none;
+}
+
+#listafilmes li {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  width: 340px;
+  height: 340px;
+  border-radius: 8px;
+}
+
+#listafilmes li input {
+    all: unset;
+    accent-color: red;
+    background: black;
+    border-radius: 20px;
+    width: calc(100% - 100px);
+  }
+
+#listafilmes li button {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  padding-top: 0px;
+}
+
+iframe {
+  width: 225px;
+  height: 100px;
+}
+
+.botoes1 {
+  font-family: OCR A Std, monospace;
+  font-size: medium;
+  padding: 5px 80px;
+  padding-left: 30px;
+  color: red;
+  background-color: black;
+  border-radius: 20px;
+  border-color: red;
+  width: 73%;
+  height: 30%;
+}
+
+.botoes2 {
+  font-family: OCR A Std, monospace;
+  color: red;
+  background-color: black;
+  border-radius: 20px;
+  border-color: red;
+  height: 30%;
+}
+
+input[type="range"] {
+  width: 9%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+body {
+  background-image: url("view-3d-movie-director-s-chair-with-popcorn.jpg");
+  background-size: cover;
+}
+form div + div {
+  margin-top: 0.2em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+#filmes {
+  display: flex;
+}
+
+#formulario div {
+  margin: 0;
+  padding: 5px;
+}
+
+input,
+textarea {
+  padding: 0px 50px;
+  width: 15%;
+  height: 20px;
+  border-radius: 20px;
+  background-color: rgb(146, 30, 30);
+  border: 1px solid #999;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  border-color: white;
+  border-color: red;
+}
+
+* {
+  color: white;
+  font-family: Snell Roundhand, cursive;
+  text-align: center;
+  margin: 10;
+}
+a {
+  font-size: larger;
+}
+
+#logout {
+  left: 0px;
+  position: static;
+}
+
+dialog {
+  bottom: 150px;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: black;
+}
+
+#spam form p {
+  color: red;
+}
+
+#spam form button {
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+button {
+  font-family: OCR A Std, monospace;
+  color: red;
+  background-color: black;
+  border-radius: 20px;
+  border-color: red;
+  width: 25%;
+  margin: 20px;
+}
+button a {
+  text-decoration: none;
+  font-family: OCR A Std, monospace;
+  color: red;
+  background-color: black;
+  border-radius: 20px;
+  border-color: red;
+}
+a #labelNome {
+  font-family: Noto Sans, sans-serif;
+  font-size: medium;
+}
+p #textPrin {
+  font-family: Andale Mono, monospace;
+}
+
+.margin-top-5 {
+  margin-top: 5%;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(11, 1, 1);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  width: 50% !important; /*Importante manter o !important rs */
+  margin: auto;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(68, 10, 10);
+}
+
+th,
+td {
+  border: 1px solid rgb(62, 6, 6);
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(33, 7, 7);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+header img {
+  height: 200px;
+}
+#tfilmes {
+  overflow: auto;
+}
+
+/* dispositivos muito pequenos (celulares, abaixo de 600px) */
+@media only screen and (max-width: 600px) {
+  #logout {
+    width: 25%;
+  }
+  button {
+    padding: 5px 5px;
+    font-size: small;
+  }
+  button a {
+    padding: 5px 10px;
+    font-size: small;
+  }
+
+  .botoes2 {
+    font-size: small;
+    padding: 5px 10px;
+    width: 50%;
+  }
+  #listafilmes li {
+    width: calc(100% - 20px);
+  }
+}
+
+/* Dispositivos pequenos(celulares grandes e tablets em modo retato, acima de 600px) */
+@media only screen and (min-width: 600px) {
+  #logout {
+    width: 20%;
+  }
+  button {
+    padding: 5px 20px;
+    font-size: medium;
+  }
+  button a {
+    padding: 5px 20px;
+    font-size: medium;
+  }
+
+  .botoes2 {
+    font-size: medium;
+    padding: 5px 20px;
+    width: 50%;
+  }
+}
+
+/* Dispositivos medios (tablets em modo paisagem, acima de 768px) */
+@media only screen and (min-width: 768px) {
+  #logout {
+    width: 15%;
+  }
+
+  .botoes2 {
+    font-size: medium;
+    padding: 5px 80px;
+    width: 73%;
+  }
+}
+
+/* Dispositivos grandes (notebooks e computadores, acima de 992px) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Dispositivos muito grandes (notebooks e computadores com tela grande, acima de 1200px) */
+@media only screen and (min-width: 1200px) {
+}
