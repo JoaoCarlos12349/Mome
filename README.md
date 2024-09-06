@@ -2,9 +2,10 @@
 
 ![Static Badge](https://img.shields.io/badge/Em_Desenvolvimento-%23FFFF00?label=Status)
 
-
-
 O MoMe - Movies Memories funciona como uma biblioteca para armazenar seus filmes preferidos com a suas repectivas notas.
+
+![Captura de Tela](telaIN.png)
+
 
 ## Índice
 
@@ -46,11 +47,19 @@ Baixe os arquivos e execute a landing.html para iniciar uma experiência complet
 
 ## Como Usar
 
-Crie uma conta através da parte de cadastro.
+Crie uma conta através do "Cadastro"
+
+![Captura de Tela](telaCadastro.png)
 
 Adicione seus filmes através do "Registrar um novo filme".
 
+![Captura de Tela](telaHome.png)
+
 Altere sua nota através da barra de registro de nota abaixo do trailer informado e seu título por meio do "Editar" do filme escolhido.
+
+Para Salvar use "Sair" e faça o login quando quiser em "Login"
+
+![Captura de Tela](telaLogin.png)
 
 ## Contato
 - Desenvolvido por João Carlos Martins, Evelyze Reis e Esther Magalhães (Estudantes de Engenharia de Computação - CEFETMG).
