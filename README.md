@@ -15,6 +15,7 @@ O MoMe - Movies Memories funciona como uma biblioteca para armazenar seus filmes
 - [Pré-requisitos](#pré-requisitos)
 - [Instalação](#instalação)
 - [Como Usar](#como-usar)
+- [Licença](#licença)
 - [Contato](#contato)
   
 ## Sobre o Projeto
@@ -33,7 +34,7 @@ Com uma interface simples e intuitiva, o MoMe facilita a adição de novos filme
   
 ## Tecnologias Utilizadas
 
-- [Linguagem/Framework](#): JavaScript, HTML e CSS.
+- [Linguagem](#): JavaScript, HTML e CSS.
 
 ## Pré-requisitos
 
@@ -44,6 +45,7 @@ Antes de iniciar, certifique-se de atender aos seguintes requisitos:
 ## Instalação
 
 Baixe os arquivos e execute a landing.html para iniciar uma experiência completa e sem erros.
+Recomenda-se usar os navegadores Google Chrome e Opera.
 
 ## Como Usar
 
@@ -60,6 +62,9 @@ Altere sua nota através da barra de registro de nota abaixo do trailer informad
 Para Salvar use "Sair" e faça o login quando quiser em "Login"
 
 ![Captura de Tela](telaLogin.png)
+
+## Licença
+MoMe está sendo disponibilizado como código aberto.
 
 ## Contato
 - Desenvolvido por João Carlos Martins, Evelyze Reis e Esther Magalhães (Estudantes de Engenharia de Computação - CEFETMG).
